@@ -1,0 +1,21 @@
+.quickView {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 10;
+	width: clamp(400px, 50%, 1200px);
+	padding: 1rem;
+	box-sizing: border-box;
+	background-color: white;
+
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	transition: box-shadow 0.25s;
+
+	overflow-y: auto;
+	height: 100vh;
+}
+
+.quickView:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

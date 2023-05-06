@@ -1,0 +1,15 @@
+.htmlView {
+	display: flex;
+	flex-direction: column;
+	font-size: 2rem;
+}
+
+.htmlView h1 {
+	font-family: font-bold, sans-serif;
+	font-size: 3rem;
+}
+
+.htmlView p {
+	font-family: font-base, sans-serif;
+	font-size: 1.6rem;
+}

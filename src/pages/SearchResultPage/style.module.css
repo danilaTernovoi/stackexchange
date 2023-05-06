@@ -1,0 +1,39 @@
+.row {
+	display: flex;
+	gap: 2rem;
+	font-size: 1.6rem;
+}
+
+.outer {
+	padding: 2rem;
+	box-sizing: border-box;
+	flex-direction: column;
+	gap: 2rem;
+	width: 100%;
+}
+
+.head {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding-bottom: 1rem;
+}
+
+.cell {
+	width: 100%;
+}
+
+.footer {
+	min-height: 80px;
+}
+
+.footerBody {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80px;
+
+	position: fixed;
+	bottom: 0;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 100%;
+}

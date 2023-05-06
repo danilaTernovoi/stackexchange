@@ -1,0 +1,39 @@
+.outer,
+.row {
+	display: flex;
+	justify-content: center;
+
+	gap: 2rem;
+	font-size: 1.6rem;
+}
+
+.outer {
+	box-sizing: border-box;
+	flex-direction: column;
+	gap: 2rem;
+	width: 100%;
+}
+
+.head,
+.headFloating {
+	min-height: 80px;
+}
+
+.head {
+	align-items: center;
+}
+
+.cell {
+	width: 20%;
+	word-wrap: break-word;
+}
+
+.head_fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	background-color: white;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}

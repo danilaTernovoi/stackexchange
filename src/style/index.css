@@ -1,0 +1,58 @@
+@font-face {
+	src: url('../assets/fonts/Roboto-Medium.ttf');
+	font-family: font-base;
+}
+
+@font-face {
+	src: url('../assets/fonts/Roboto-Bold.ttf');
+	font-family: font-bold;
+}
+
+:root {
+	--color-main: navy;
+	--color-text-light: white;
+	--color-text-dark: black;
+
+	font-size: 10px;
+	font-family: font-base, sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+/* ::-webkit-scrollbar {
+	width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: navy;
+} */
+
+.focus:focus {
+	outline: 1px solid navy;
+}
+
+.sortBox {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	min-height: 80px;
+}
+
+.toggleDescButton {
+	background-color: transparent;
+	text-transform: uppercase;
+	font-family: font-base, sans-serif;
+	border: 1px solid navy;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+

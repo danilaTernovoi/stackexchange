@@ -1,0 +1,37 @@
+.row,
+.outer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	position: relative;
+}
+
+.toBackButton {
+	--offset: 1rem;
+
+	position: fixed;
+	top: var(--offset);
+	right: var(--offset);
+	border: none;
+
+	font-size: 2rem;
+	font-family: font-bold, sans-serif;
+	background-color: navy;
+	color: white;
+}
+
+.answersColumn {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+
+	padding: 2rem;
+	box-sizing: border-box;
+}
+
+.answer {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	border-radius: 4px;
+}

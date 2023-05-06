@@ -1,0 +1,56 @@
+:root {
+	--page-item-size: 50px;
+}
+
+.wrapper {
+	display: flex;
+	min-height: var(--page-item-size);
+	gap: 2rem;
+}
+
+.pageGroup {
+	display: flex;
+	gap: 1rem;
+}
+
+.pageItem {
+	--size: 50px;
+	width: var(--size);
+	height: var(--size);
+	font-size: 1.6rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+	border-radius: 4px;
+	cursor: pointer;
+
+	transition-property: background-color, color;
+	transition-duration: 0.15s;
+}
+
+.pageItem_active {
+	background-color: navy;
+	color: white;
+}
+
+.navButton {
+	border: none;
+	outline: none;
+	font-size: 3rem;
+	font-family: font-base;
+	background-color: transparent;
+
+	color: darkgray;
+	cursor: pointer;
+}
+
+.navButton:hover:not(:disabled) {
+	color: navy;
+}
+
+.navButton:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
