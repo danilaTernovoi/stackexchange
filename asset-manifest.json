@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/stackexchange/static/css/main.dcffddd6.css",
-    "main.js": "/stackexchange/static/js/main.670174fa.js",
+    "main.js": "/stackexchange/static/js/main.3cf3fb5c.js",
     "static/js/787.2e6e6aaf.chunk.js": "/stackexchange/static/js/787.2e6e6aaf.chunk.js",
     "static/media/Roboto-Medium.ttf": "/stackexchange/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
     "static/media/Roboto-Bold.ttf": "/stackexchange/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
     "index.html": "/stackexchange/index.html",
     "main.dcffddd6.css.map": "/stackexchange/static/css/main.dcffddd6.css.map",
-    "main.670174fa.js.map": "/stackexchange/static/js/main.670174fa.js.map",
+    "main.3cf3fb5c.js.map": "/stackexchange/static/js/main.3cf3fb5c.js.map",
     "787.2e6e6aaf.chunk.js.map": "/stackexchange/static/js/787.2e6e6aaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dcffddd6.css",
-    "static/js/main.670174fa.js"
+    "static/js/main.3cf3fb5c.js"
   ]
 }
